@@ -55,11 +55,11 @@
         "repositoryUrl": "git@github.com:pelger/startupdeathclock.git",
         "buildScript": "buildreal.sh",
         "arguments": "-p 9001:9001 -d __TARGETNAME__ /usr/bin/node /srv/real-srv",
-        "buildHead": 43,
-        "binary": "/tmp/nfd/sudc/builds/real-srv-42",
-        "dockerImageId": "99e51617d33307920566d7dcfed8994b60065ce42c15a15aadda532e46712777"
+        "buildHead": 44,
+        "binary": "/tmp/nfd/sudc/builds/real-srv-43",
+        "dockerImageId": "d12527e7a5433340feba2e0aac6d591e9b8e967ef387c191130359d414c0cff2"
       },
-      "version": "0.1.0",
+      "version": "0.0.0",
       "id": "5b15176f-0e44-4cf1-be1a-a3de756c2343"
     },
     {
@@ -111,23 +111,10 @@
         "contains": [
           "1434e902-80c9-4dbd-8b29-8e4a17477523",
           "21f591ea-5477-4f97-a07f-9c2050400b21",
-          "4ec80f37-f546-4b57-bfa9-76de9b608f46"
+          "fa6fc6e5-d5ab-4db2-98bf-6b7c6c2fcabe"
         ],
         "specific": {
           "ipaddress": "10.75.29.243"
-        }
-      },
-      "4ec80f37-f546-4b57-bfa9-76de9b608f46": {
-        "id": "4ec80f37-f546-4b57-bfa9-76de9b608f46",
-        "containerDefinitionId": "5b15176f-0e44-4cf1-be1a-a3de756c2343",
-        "containedBy": "21",
-        "contains": [],
-        "specific": {
-          "dockerImageId": "99e51617d33307920566d7dcfed8994b60065ce42c15a15aadda532e46712777",
-          "containerBinary": "/tmp/nfd/sudc/builds/real-srv-42",
-          "dockerLocalTag": "sudc/real-srv-42",
-          "buildNumber": 42,
-          "version": "0.1.0"
         }
       },
       "c693fc32-475f-4cf8-8ff9-155c1bbf0f3e": {
@@ -166,6 +153,19 @@
           "containerBinary": "/tmp/nfd/sudc/builds/hist-srv-191",
           "dockerLocalTag": "sudc/hist-srv-191",
           "buildNumber": 191,
+          "version": "0.0.0"
+        }
+      },
+      "fa6fc6e5-d5ab-4db2-98bf-6b7c6c2fcabe": {
+        "id": "fa6fc6e5-d5ab-4db2-98bf-6b7c6c2fcabe",
+        "containerDefinitionId": "5b15176f-0e44-4cf1-be1a-a3de756c2343",
+        "containedBy": "21",
+        "contains": [],
+        "specific": {
+          "dockerImageId": "d12527e7a5433340feba2e0aac6d591e9b8e967ef387c191130359d414c0cff2",
+          "containerBinary": "/tmp/nfd/sudc/builds/real-srv-43",
+          "dockerLocalTag": "sudc/real-srv-43",
+          "buildNumber": 43,
           "version": "0.0.0"
         }
       }
