@@ -74,9 +74,9 @@
         "repositoryUrl": "git@github.com:pelger/startupdeathclock.git",
         "buildScript": "buildweb.sh",
         "arguments": "-e WEB_HOST=10.75.29.243 -p 8000:8000 -d __TARGETNAME__ sh /web/run.sh",
-        "buildHead": 219,
-        "binary": "/tmp/nfd/sudc/builds/web-218",
-        "dockerImageId": "810d7b8edb170f5da65d9ac58d07e72c486d17a184c8d888e29a95e6e5a7822e"
+        "buildHead": 220,
+        "binary": "/tmp/nfd/sudc/builds/web-219",
+        "dockerImageId": "5b04b4d648fc388128d4271b4e6ba3053047ca537b0e0820de81c273a2c74e93"
       },
       "id": "8cb5b916-8bd1-4ecf-8825-585c1a2678aa",
       "version": "0.0.0"
@@ -98,7 +98,7 @@
         "containerDefinitionId": "74c88a1d-95c9-4374-8490-3c3dc318688b",
         "containedBy": "10",
         "contains": [
-          "9238137d-29ea-4977-b3ba-51880452bbc9"
+          "fd028d4c-ce9d-49b1-bea8-631b10cf0735"
         ],
         "specific": {
           "ipaddress": "10.74.143.152"
@@ -156,16 +156,16 @@
           "version": "0.0.0"
         }
       },
-      "9238137d-29ea-4977-b3ba-51880452bbc9": {
-        "id": "9238137d-29ea-4977-b3ba-51880452bbc9",
+      "fd028d4c-ce9d-49b1-bea8-631b10cf0735": {
+        "id": "fd028d4c-ce9d-49b1-bea8-631b10cf0735",
         "containerDefinitionId": "8cb5b916-8bd1-4ecf-8825-585c1a2678aa",
         "containedBy": "20",
         "contains": [],
         "specific": {
-          "dockerImageId": "810d7b8edb170f5da65d9ac58d07e72c486d17a184c8d888e29a95e6e5a7822e",
-          "containerBinary": "/tmp/nfd/sudc/builds/web-218",
-          "dockerLocalTag": "sudc/web-218",
-          "buildNumber": 218,
+          "dockerImageId": "5b04b4d648fc388128d4271b4e6ba3053047ca537b0e0820de81c273a2c74e93",
+          "containerBinary": "/tmp/nfd/sudc/builds/web-219",
+          "dockerLocalTag": "sudc/web-219",
+          "buildNumber": 219,
           "version": "0.0.0"
         }
       }
