@@ -27,11 +27,11 @@
         "repositoryUrl": "git@github.com:pelger/startupdeathclock.git",
         "buildScript": "builddoc.sh",
         "arguments": "-p 9002:9002 -d __TARGETNAME__ /usr/bin/node /srv/doc-srv",
-        "buildHead": 24,
-        "binary": "/tmp/nfd/sudc/builds/doc-srv-23",
-        "dockerImageId": "bbdcfe2418b12a44560b91e5ae4123dca01d369a6db79efbfa6e40573321623f"
+        "buildHead": 25,
+        "binary": "/tmp/nfd/sudc/builds/doc-srv-24",
+        "dockerImageId": "db3709706d0b61a6597244972a7ccec12b4403c9888ecdadbdede6a5f83b1cfe"
       },
-      "version": "0.1.0",
+      "version": "0.0.0",
       "id": "222409de-150d-42fb-8151-da6b08fa7ce7"
     },
     {
@@ -109,7 +109,7 @@
         "containerDefinitionId": "74c88a1d-95c9-4374-8490-3c3dc318688b",
         "containedBy": "10",
         "contains": [
-          "bf5532a6-f874-4170-9ae2-71c7b745d0e0",
+          "1434e902-80c9-4dbd-8b29-8e4a17477523",
           "10ea0b06-6c06-4ad7-92b1-40a40ca2de13",
           "4ec80f37-f546-4b57-bfa9-76de9b608f46"
         ],
@@ -143,19 +143,6 @@
           "version": "0.1.0"
         }
       },
-      "bf5532a6-f874-4170-9ae2-71c7b745d0e0": {
-        "id": "bf5532a6-f874-4170-9ae2-71c7b745d0e0",
-        "containerDefinitionId": "222409de-150d-42fb-8151-da6b08fa7ce7",
-        "containedBy": "21",
-        "contains": [],
-        "specific": {
-          "dockerImageId": "bbdcfe2418b12a44560b91e5ae4123dca01d369a6db79efbfa6e40573321623f",
-          "containerBinary": "/tmp/nfd/sudc/builds/doc-srv-23",
-          "dockerLocalTag": "sudc/doc-srv-23",
-          "buildNumber": 23,
-          "version": "0.1.0"
-        }
-      },
       "c693fc32-475f-4cf8-8ff9-155c1bbf0f3e": {
         "id": "c693fc32-475f-4cf8-8ff9-155c1bbf0f3e",
         "containerDefinitionId": "8cb5b916-8bd1-4ecf-8825-585c1a2678aa",
@@ -166,6 +153,19 @@
           "containerBinary": "/tmp/nfd/sudc/builds/web-217",
           "dockerLocalTag": "sudc/web-217",
           "buildNumber": 217,
+          "version": "0.0.0"
+        }
+      },
+      "1434e902-80c9-4dbd-8b29-8e4a17477523": {
+        "id": "1434e902-80c9-4dbd-8b29-8e4a17477523",
+        "containerDefinitionId": "222409de-150d-42fb-8151-da6b08fa7ce7",
+        "containedBy": "21",
+        "contains": [],
+        "specific": {
+          "dockerImageId": "db3709706d0b61a6597244972a7ccec12b4403c9888ecdadbdede6a5f83b1cfe",
+          "containerBinary": "/tmp/nfd/sudc/builds/doc-srv-24",
+          "dockerLocalTag": "sudc/doc-srv-24",
+          "buildNumber": 24,
           "version": "0.0.0"
         }
       }
