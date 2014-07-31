@@ -41,11 +41,11 @@
         "repositoryUrl": "git@github.com:pelger/startupdeathclock.git",
         "buildScript": "buildhist.sh",
         "arguments": "-p 9000:9000 -d __TARGETNAME__ /usr/bin/node /srv/hist-srv",
-        "buildHead": 191,
-        "binary": "/tmp/nfd/sudc/builds/hist-srv-190",
-        "dockerImageId": "b834522d6bf9d0bb888ddd85647c18e619abb83e0060cc9b095f572b34a3a199"
+        "buildHead": 192,
+        "binary": "/tmp/nfd/sudc/builds/hist-srv-191",
+        "dockerImageId": "4eae7552e98844f5aecc2e3254699ad8b1636adc3d63514b12784e1dcf3596e6"
       },
-      "version": "0.1.0",
+      "version": "0.0.0",
       "id": "c8498581-f932-4ebb-997c-09e9f101f14c"
     },
     {
@@ -110,24 +110,11 @@
         "containedBy": "10",
         "contains": [
           "1434e902-80c9-4dbd-8b29-8e4a17477523",
-          "10ea0b06-6c06-4ad7-92b1-40a40ca2de13",
+          "21f591ea-5477-4f97-a07f-9c2050400b21",
           "4ec80f37-f546-4b57-bfa9-76de9b608f46"
         ],
         "specific": {
           "ipaddress": "10.75.29.243"
-        }
-      },
-      "10ea0b06-6c06-4ad7-92b1-40a40ca2de13": {
-        "id": "10ea0b06-6c06-4ad7-92b1-40a40ca2de13",
-        "containerDefinitionId": "c8498581-f932-4ebb-997c-09e9f101f14c",
-        "containedBy": "21",
-        "contains": [],
-        "specific": {
-          "dockerImageId": "b834522d6bf9d0bb888ddd85647c18e619abb83e0060cc9b095f572b34a3a199",
-          "containerBinary": "/tmp/nfd/sudc/builds/hist-srv-190",
-          "dockerLocalTag": "sudc/hist-srv-190",
-          "buildNumber": 190,
-          "version": "0.1.0"
         }
       },
       "4ec80f37-f546-4b57-bfa9-76de9b608f46": {
@@ -166,6 +153,19 @@
           "containerBinary": "/tmp/nfd/sudc/builds/doc-srv-24",
           "dockerLocalTag": "sudc/doc-srv-24",
           "buildNumber": 24,
+          "version": "0.0.0"
+        }
+      },
+      "21f591ea-5477-4f97-a07f-9c2050400b21": {
+        "id": "21f591ea-5477-4f97-a07f-9c2050400b21",
+        "containerDefinitionId": "c8498581-f932-4ebb-997c-09e9f101f14c",
+        "containedBy": "21",
+        "contains": [],
+        "specific": {
+          "dockerImageId": "4eae7552e98844f5aecc2e3254699ad8b1636adc3d63514b12784e1dcf3596e6",
+          "containerBinary": "/tmp/nfd/sudc/builds/hist-srv-191",
+          "dockerLocalTag": "sudc/hist-srv-191",
+          "buildNumber": 191,
           "version": "0.0.0"
         }
       }
