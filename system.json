@@ -74,9 +74,9 @@
         "repositoryUrl": "git@github.com:pelger/startupdeathclock.git",
         "buildScript": "buildweb.sh",
         "arguments": "-e WEB_HOST=10.75.29.243 -p 8000:8000 -d __TARGETNAME__ sh /web/run.sh",
-        "buildHead": 218,
-        "binary": "/tmp/nfd/sudc/builds/web-217",
-        "dockerImageId": "492ba51710108ff1410b69b6b9cfc9776d56b584b874220622ec6bddfc2e2933"
+        "buildHead": 219,
+        "binary": "/tmp/nfd/sudc/builds/web-218",
+        "dockerImageId": "810d7b8edb170f5da65d9ac58d07e72c486d17a184c8d888e29a95e6e5a7822e"
       },
       "id": "8cb5b916-8bd1-4ecf-8825-585c1a2678aa",
       "version": "0.0.0"
@@ -98,7 +98,7 @@
         "containerDefinitionId": "74c88a1d-95c9-4374-8490-3c3dc318688b",
         "containedBy": "10",
         "contains": [
-          "c693fc32-475f-4cf8-8ff9-155c1bbf0f3e"
+          "9238137d-29ea-4977-b3ba-51880452bbc9"
         ],
         "specific": {
           "ipaddress": "10.74.143.152"
@@ -115,19 +115,6 @@
         ],
         "specific": {
           "ipaddress": "10.75.29.243"
-        }
-      },
-      "c693fc32-475f-4cf8-8ff9-155c1bbf0f3e": {
-        "id": "c693fc32-475f-4cf8-8ff9-155c1bbf0f3e",
-        "containerDefinitionId": "8cb5b916-8bd1-4ecf-8825-585c1a2678aa",
-        "containedBy": "20",
-        "contains": [],
-        "specific": {
-          "dockerImageId": "492ba51710108ff1410b69b6b9cfc9776d56b584b874220622ec6bddfc2e2933",
-          "containerBinary": "/tmp/nfd/sudc/builds/web-217",
-          "dockerLocalTag": "sudc/web-217",
-          "buildNumber": 217,
-          "version": "0.0.0"
         }
       },
       "1434e902-80c9-4dbd-8b29-8e4a17477523": {
@@ -166,6 +153,19 @@
           "containerBinary": "/tmp/nfd/sudc/builds/real-srv-43",
           "dockerLocalTag": "sudc/real-srv-43",
           "buildNumber": 43,
+          "version": "0.0.0"
+        }
+      },
+      "9238137d-29ea-4977-b3ba-51880452bbc9": {
+        "id": "9238137d-29ea-4977-b3ba-51880452bbc9",
+        "containerDefinitionId": "8cb5b916-8bd1-4ecf-8825-585c1a2678aa",
+        "containedBy": "20",
+        "contains": [],
+        "specific": {
+          "dockerImageId": "810d7b8edb170f5da65d9ac58d07e72c486d17a184c8d888e29a95e6e5a7822e",
+          "containerBinary": "/tmp/nfd/sudc/builds/web-218",
+          "dockerLocalTag": "sudc/web-218",
+          "buildNumber": 218,
           "version": "0.0.0"
         }
       }
